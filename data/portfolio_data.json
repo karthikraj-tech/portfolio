@@ -1,0 +1,76 @@
+{
+  "personal": {
+    "name": "Karthikraj S",
+    "title": "Aspiring AI Engineer | Computer Science Undergraduate",
+    "location": "Chennai, Tamil Nadu, India",
+    "email": "karthikpnk17@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/karthikraj-s-22725a33a",
+    "github": "https://github.com/karthikraj-tech",
+    "languages": ["Tamil", "English"],
+    "about": "I am an undergraduate Computer Science and Engineering student at Rajalakshmi Institute of Technology, Chennai, aspiring to become an AI Engineer. I am actively developing practical skills in Python, web development, databases, and AI fundamentals, and I am seeking internship opportunities to apply my learning and grow."
+  },
+  "education": [
+    {
+      "institution": "Rajalakshmi Institute of Technology, Chennai",
+      "degree": "Bachelor of Engineering in Computer Science and Engineering",
+      "duration": "2024 - 2028",
+      "status": "Currently in 3rd year"
+    },
+    {
+      "institution": "Sri Ramakrishna Boys Matric. Hr. Sec. School",
+      "degree": "Class XII (Higher Secondary Education), State Board",
+      "duration": "Completed in 2024",
+      "status": "Completed"
+    }
+  ],
+  "skills": [
+    { "category": "Programming Languages", "name": "Python", "sort_order": 1 },
+    { "category": "Programming Languages", "name": "Java (Basic)", "sort_order": 2 },
+    { "category": "Web Technologies", "name": "HTML", "sort_order": 3 },
+    { "category": "Web Technologies", "name": "CSS", "sort_order": 4 },
+    { "category": "Web Technologies", "name": "JavaScript (currently learning)", "sort_order": 5 },
+    { "category": "Databases", "name": "MySQL", "sort_order": 6 },
+    { "category": "Databases", "name": "MongoDB", "sort_order": 7 },
+    { "category": "Development Tools", "name": "Visual Studio Code", "sort_order": 8 },
+    { "category": "Development Tools", "name": "Git", "sort_order": 9 },
+    { "category": "Development Tools", "name": "GitHub", "sort_order": 10 }
+  ],
+  "projects": [
+    {
+      "title": "Student Attendance Management System",
+      "description": "An academic project concept designed to manage student records and track attendance efficiently using Python and database technologies.",
+      "tech_stack": "Python, Database Management",
+      "status": "Planned / In Progress",
+      "screenshot_url": null,
+      "github_url": null,
+      "live_url": null,
+      "sort_order": 1
+    },
+    {
+      "title": "Nutrazs - E-commerce Website",
+      "description": "An e-commerce website concept tailored for a nutritional supplement company, focusing on product cataloging and user-friendly browsing.",
+      "tech_stack": "Web Technologies, Python",
+      "status": "Planned / In Progress",
+      "screenshot_url": null,
+      "github_url": null,
+      "live_url": null,
+      "sort_order": 2
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Introduction to Artificial Intelligence",
+      "issuer": "Infosys Springboard",
+      "completion_date": "October 2025",
+      "certificate_url": null,
+      "image_url": null
+    },
+    {
+      "title": "MongoDB Basics for Students",
+      "issuer": "MongoDB",
+      "completion_date": "August 2026",
+      "certificate_url": null,
+      "image_url": null
+    }
+  ]
+}

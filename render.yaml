@@ -1,0 +1,20 @@
+# Render Blueprint Configuration
+# Documentation: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: karthikraj-portfolio
+    runtime: python
+    buildCommand: "pip install -r requirements.txt && python seed.py"
+    startCommand: "gunicorn app:app"
+    plan: free
+    region: oregon # or frankfurt, singapore
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false # Set this in Render Dashboard to your hosted MySQL / TiDB Cloud Starter connection string
